@@ -1,0 +1,56 @@
+html {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    min-height: 100%;
+}
+
+.btn-info {
+    background-color: #694f2d;
+    border: 0;
+
+}
+
+.btn-info:hover {
+    background-color: #b3946b;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+body {
+    background-color: #eaf0c2;
+    color: #fff;
+}
+
+.main {
+    min-height: 100%;
+}
+
+.book-list li {
+    display: inline-block;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+main {
+    margin-bottom: 25rem;
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        display: inline-block;
+    }
+}
